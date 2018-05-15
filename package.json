@@ -1,10 +1,10 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +14,14 @@
     "express": "^4.16.3",
     "hbs": "^4.0.1",
     "yargs": "^11.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sharmindran/weather-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sharmindran/weather-app/issues"
+  },
+  "homepage": "https://github.com/sharmindran/weather-app#readme",
+  "description": ""
 }
