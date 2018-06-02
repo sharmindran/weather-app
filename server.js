@@ -14,7 +14,7 @@ server.set('view engine', 'hbs');
 hbs.registerPartials(__dirname + '/views/partials');
 
 var weatherdata;
-
+//test
 hbs.registerHelper('list', (items, options) => {
   items = weatherdata;
   var out = "<tr><th>Addrss</th><th>Summary</th><th>temperature</th></tr>"
